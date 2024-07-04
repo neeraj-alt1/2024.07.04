@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+    <link rel="stylesheet" type="" href="index.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="rollno">Student Roll No:</label>
+            <input type="number" id="rollno" name="rollno" required>
+        </div>
+        <div>
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="department">Student Department:</label>
+            <select id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option value="cs">Computer Science</option>
+                <option value="ee">Electrical Engineering</option>
+                <option value="me">Mechanical Engineering</option>
+                <option value="ce">Civil Engineering</option>
+                <!-- Add more departments as needed -->
+            </select>
+        </div>
+        <div>
+            <label for="marks10">10th Marks:</label>
+            <input type="number" id="marks10" name="marks10" required>
+        </div>
+        <div>
+            <label for="marks12">12th Marks:</label>
+            <input type="number" id="marks12" name="marks12" required>
+        </div>
+        <div>
+            <label for="degree">Degree Percentage:</label>
+            <input type="number" id="degree" name="degree" required>
+        </div>
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="button" class="cancel">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>
